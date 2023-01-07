@@ -64,12 +64,15 @@ header{
 }
 .first-section-sub{
   display: flex;
+  width:1050px;
   align-items: center;
   justify-content: space-evenly;
-  margin: 33px;
+  margin:auto;
+ padding:35px;
   font-size:30px;
   font-weight: bold;
   color:rgba(29, 27, 27, 0.887)
+
 }
 .donate-taka{
   border: 2px solid #FF5959;
@@ -89,4 +92,87 @@ header{
  border-radius: 5px;
 margin-top: 18px;
  border: none; 
+}
+.second-flex{
+  width:280px;
+ background-color: #f56c6cb9;
+ padding: 30px 15px;
+}
+.second-flex p{
+  font-size: 15px;
+  width:280px;
+  text-transform: capitalize;
+  color: rgba(37, 33, 33, 0.835);
+}
+.second-flex h2{
+  font-size: 28px;
+  padding:14px 0px
+}
+.sub-title-bar{
+   padding-top: 60px;
+}
+.sub-title-bar h2{
+   font-size: 30px;
+   padding-bottom:10px;
+}
+.sub-title-bar p{
+  font-size: 14px;
+  padding-bottom:10px;
+  width:310px;
+  color:rgba(47, 44, 44, 0.852)
+
+}
+.btn-hexa{
+  background-color: #FF5959;
+  color:antiquewhite;
+  padding:10px 13px;
+  font-size: 15px;
+  font-weight: bold;
+  border:none;
+  border-radius: 5px;
+}
+.sbs-bar{
+  background-color:#FFF4D6 ;
+  margin:40px 0px;
+  padding:70px 0px;
+}
+.input-btn{
+  padding:20px 250px 20px 8px;
+  border:none;
+  background-color:rgba(206, 211, 216, 0.982);
+  font-size: 18px;
+  text-transform: capitalize;
+  color:beige;
+}
+.sbs-btn{
+  padding:20px 70px 20px 40px;
+  font-size: 18px;
+  text-transform: capitalize;
+  border:none;
+  background-color: #FF5959;
+  color:beige;
+  
+}
+footer{
+  background-color: black;
+  height:150px;
+  color:white;
+}
+.footers{
+  width:1150px;
+  justify-content: center;
+  height: 150px;
+  display: flex;
+ align-items: center;
+
+}
+.footers h2{
+  font-size: 30px;
+  font-style: italic;
+  padding-bottom: 15px;
+  color: #FF5959;
+}
+.footers p{
+  font-size: 14px;
+  text-align: center;
 }
