@@ -8,7 +8,7 @@
 .btn-primary{
   background-color: #FF5959;
   color:azure;
-  padding:8px 13px;
+  padding:10px 16px;
   border:none;
   margin-left: 230px;
   margin-top: 10px;
@@ -34,9 +34,10 @@ header{
   margin:auto;
 }
 .headers-sub h1{
-  color:aquamarine;
+  color:#FFEEEE;
  text-align: center;
- font-size: 40px;
+ font-size: 45px;
+ padding-bottm:20px;
 }
 .headers-sub p{
   color:antiquewhite;
@@ -96,13 +97,13 @@ margin-top: 18px;
 .second-flex{
   width:280px;
  background-color: #f56c6cb9;
- padding: 30px 15px;
+ padding: 50px 15px;
 }
 .second-flex p{
   font-size: 15px;
   width:280px;
   text-transform: capitalize;
-  color: rgba(37, 33, 33, 0.835);
+  color: rgba(50, 44, 44, 0.807);
 }
 .second-flex h2{
   font-size: 28px;
@@ -175,4 +176,13 @@ footer{
 .footers p{
   font-size: 14px;
   text-align: center;
+}
+.flex-one{
+  background-color:#EDF5F6;
+}
+.flex-two{
+  background-color: #FFEEEE;
+}
+.flex-three{
+  background-color: #FFF4D6;
 }
